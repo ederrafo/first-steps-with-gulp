@@ -15,11 +15,10 @@ Install gulp
 $ sudo npm install -g gulp
 ```
 
-
 Install gulp in your proyect
 If you use VM in host windows execute this, into proyect directory:
 ```bash
-$ ln -s ~/gulp/node_modnpm
+$ ln -s ~/gulp/project/node_modules node_modules
 ```
 You should now have a minified file, dist/jquery-2.1.1.min.js
 ```bash
