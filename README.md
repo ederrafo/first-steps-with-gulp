@@ -1,11 +1,31 @@
+Ubuntu 14.04.5 LTS
+$ nodejs --version
+v8.15.0
+$ npm --version
+6.4.1
+$ gulp --version
+[20:39:00] CLI version 2.0.1
+[20:39:00] Local version 4.0.0
+
+https://gulpjs.com/plugins/
+
 ## Demo Gulp
-
-Instalar gulp localmente en mi proyecto
-
-$ npm install --save-dev gulp
+Install gulp
+$ sudo npm install -g gulp
 
 
-## npm
-node package manager
---save-dev : indica que la dependencia es para desarrollo
---save : indica que la dependencia se necesita para produccion
+Install gulp in your proyect
+If you use VM in host windows execute this, into proyect directory:
+	$ ln -s ~/gulp/node_modnpm
+You should now have a minified file, dist/jquery-2.1.1.min.js
+$ find . -iname 'jquery*' | xargs ls -gG
+
+$ npm install jshint gulp-jshint --save-dev
+
+https://github.com/spalger/gulp-jshint
+https://jshint.com/about/
+https://markgoodyear.com/2014/01/getting-started-with-gulp/
+https://gulpjs.com/plugins/
+https://fettblog.eu/gulp-4-parallel-and-series/
+
+
